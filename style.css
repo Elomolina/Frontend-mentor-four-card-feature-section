@@ -150,13 +150,17 @@ body
     }
     .carts div 
     {   
-        margin-bottom: 10px;
+        margin-bottom: 30px;
         height:400px;
         width:300px;
     }
     .carts h3 
     {
         font-size: 20px;
+    }
+    .karma 
+    {
+        margin-top: 0;
     }
     .carts p 
     {
@@ -166,9 +170,69 @@ body
     .carts img 
     {
         position: relative;
-        top:40px;
+        top:30px;
         width:50px;
         height:50px;
         margin-right: 10px;
+    }
+}
+@media(max-width:360px)
+{
+    .text 
+    {
+        margin-top: 15px;
+    }
+    h2 
+    {
+        
+        font-size: 20px;
+    }
+    h1 
+    {
+        font-size: 30px;
+    }
+    .text h4 
+    {
+        font-size: 13px;
+    }
+}
+@media(min-width:360px) and (max-width:376px)
+{
+    .text 
+    {
+        margin-top: 20px;
+    }
+    h2 
+    {
+        
+        font-size: 23px;
+    }
+    h1 
+    {
+        font-size: 28px;
+    }
+    .text h4 
+    {
+        font-size: 15px;
+    }
+}
+
+@media(max-width:320px)
+{
+    .carts 
+    {
+        margin-top: 15px;
+    }
+    .carts > div 
+    {
+        width:250px;
+    }
+    .text h4 
+    {
+        font-size: 15px;
+    }
+    .carts img 
+    {
+        top:10px;
     }
 }
