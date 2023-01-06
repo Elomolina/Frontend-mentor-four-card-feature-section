@@ -24,7 +24,6 @@ body
 }
 .text 
 {
-    height:30%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -32,6 +31,7 @@ body
     flex-direction: column;
     font-family: 'Poppins', sans-serif;
     color:hsl(234, 12%, 34%);
+    margin-top: 15px;
     
 }
 .text h1 
@@ -52,7 +52,7 @@ body
 }
 .carts 
 {
-    height: 60%;
+    margin-top: 10px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
@@ -120,4 +120,23 @@ body
 {
     margin-top: 15px;
     border-color: orange white white;
+}
+@media(max-width:1000px)
+{
+    .attribution 
+    {
+        
+       display: none;
+    }
+    .carts 
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    .carts div 
+    {
+        
+        margin-bottom: 10px;
+        height:600px;
+    }
 }
